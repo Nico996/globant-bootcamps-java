@@ -1,0 +1,11 @@
+package topic_0.AbstractFactory;
+
+public class MySqlConnection implements Connection {
+	
+	@Override
+	public void connect() {
+		
+		System.out.println("Connecting to MySQL");
+		
+	}
+}
